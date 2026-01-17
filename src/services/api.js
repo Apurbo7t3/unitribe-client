@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // 🔹 FIX for VITE: use import.meta.env.VITE_API_URL instead of process.env.REACT_APP_API_URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API_URL ='http://localhost:8000/api';
 
 const api = axios.create({
   baseURL: API_URL,

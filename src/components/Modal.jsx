@@ -1,4 +1,4 @@
-// src/components/Modal.jsx - FIXED WITH PROPER STYLING
+// src/components/Modal.jsx 
 import React from 'react';
 import { X } from 'lucide-react';
 
@@ -41,13 +41,12 @@ const Modal = ({
           {children}
         </div>
 
-        {/* Optional Footer - if needed */}
-        {/* <div className="px-6 py-4 border-t">
+        <div className="px-6 py-4 border-t">
           <div className="flex justify-end space-x-3">
             <Button variant="secondary" onClick={onClose}>Cancel</Button>
             <Button>Save</Button>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

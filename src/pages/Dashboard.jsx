@@ -1,4 +1,4 @@
-// src/pages/Dashboard.jsx - FIXED WITH AUTO-REFRESH
+// src/pages/Dashboard.jsx
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';

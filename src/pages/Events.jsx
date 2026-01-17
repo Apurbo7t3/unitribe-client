@@ -1,4 +1,4 @@
-// src/pages/Events.jsx - FIXED EVENTS PAGE
+// src/pages/Events.jsx
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';

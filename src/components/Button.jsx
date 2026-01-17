@@ -1,4 +1,4 @@
-// src/components/Button.jsx - FIXED WITH VISIBLE ICONS
+// src/components/Button.jsx
 import React from 'react';
 
 const Button = ({ 
